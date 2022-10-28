@@ -71,11 +71,13 @@ public class AudioFromVideo {
             audiomime = audioformat.getString(MediaFormat.KEY_MIME);
             videomime = videoformat.getString(MediaFormat.KEY_MIME); //
 
+            //디코더 초기화
             Log.d("테스트", audiomime);
             audioDeCoder = MediaCodec.createDecoderByType(audiomime);
             audioDeCoder.configure(audioformat, null, null, 0);
             audioDeCoder.start();
 
+            //인코더 초기화
             audioEncoder = MediaCodec.createEncoderByType(audiomime);
             audioEncoder.configure(audioformat, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
             audioEncoder.start();
@@ -108,7 +110,6 @@ public class AudioFromVideo {
 
                 //파일 아웃풋, 버퍼정보,  muxer 2가지 트랙 초기화
                 OutputStream os = new FileOutputStream(new File(destFile)); //.pcm파일을 출력하게됨
-                ArrayList<Short> sample = new ArrayList<>();
                 long count = 0;
                 MediaCodec.BufferInfo videoBufferInfo = new MediaCodec.BufferInfo(); //인코딩, 디코딩을 하기 위해서는 항상 버퍼 인포가 필요함
                 ByteBuffer videoInputBuffer = ByteBuffer.allocate(MAX_BUFFER_SIZE);
@@ -120,7 +121,7 @@ public class AudioFromVideo {
                 Log.d("", "muxer: starting");
 
 
-                // 1. 비디오 추출 및 muxer에 추가
+                // 1. 비디오 추출 및 muxer에 추가 (이부분은 비디오만이라 볼필요 없을거임
                 while (!videoExtractorDone) {
                     try {
                         videoBufferInfo.size = videoExtractor.readSampleData(videoInputBuffer, 0);
@@ -142,7 +143,7 @@ public class AudioFromVideo {
                         videoExtractedFrameCount++;
                     }
                 }
-
+                //비디오 추출 끝
 
 
                 //2. 오디오 추출 및 디코딩
@@ -155,24 +156,25 @@ public class AudioFromVideo {
                     //MediaFormat을 MediaExtractor를 이용하여 값을 가져옴
                     //코덱버퍼에 필요한 정보들 (sampleSize, presentationTime, flag) 가져옴
                     //mMediaCodec은 디코더 코덱임
-                    int sampleSize = mMediaExtractor.readSampleData(mMediaCodec.getInputBuffer(inputIndex), 0); //오디오 추출
-                    if (sampleSize == -1) break;    //만약 다 읽었거나 파일 내용이 없는 경우 종료
+                    int sampleSize = mMediaExtractor.readSampleData(mMediaCodec.getInputBuffer(inputIndex), 0); //오디오 사이즈 추출
+                    if (sampleSize == -1) break;    //만약 다 읽었거나 파일 내용이 없는 경우(리턴값 -1) 종료
                     long presentationTime = mMediaExtractor.getSampleTime();
                     int flag = mMediaExtractor.getSampleFlags();
-                    mMediaExtractor.advance();
-                    mMediaCodec.queueInputBuffer(inputIndex, 0, sampleSize, presentationTime, flag);
+                    mMediaExtractor.advance();  //익스트랙터에서 추출할 내용을 모두 추출했으므로 다음으로 넘어감
+                    mMediaCodec.queueInputBuffer(inputIndex, 0, sampleSize, presentationTime, flag);    //코덱 버퍼에 추출한 내용들 input
                     //여기까지 인풋
 
                     //코덱에 들어갔다 나오면서 디코딩 파일이 출력됨 아웃풋 과정
-                    MediaCodec.BufferInfo info = new MediaCodec.BufferInfo();
+                    MediaCodec.BufferInfo info = new MediaCodec.BufferInfo(); //버퍼 인포 초기화
                     //dequeueOutputBuffer는 아까 dequeueInputBuffer 함수에서 넣어둔 정보를 가져오는 역할
                     int outputIndex = mMediaCodec.dequeueOutputBuffer(info, 0);
-                    if (outputIndex >= 0) {
+                    if (outputIndex >= 0) { //outputIndex가 더 읽은게 없으면 -1을 리턴함
                         ByteBuffer bb = mMediaCodec.getOutputBuffer(outputIndex); //바이트버퍼 bb에 디코딩 데이터를 입력
-                        byte[] data = new byte[info.size];
-                        bb.get(data);
+                        byte[] data = new byte[info.size]; //버퍼 size 만큼 data 확보
+                        bb.get(data); //데이터를 get 할 때 마다 position이 바뀐다.
+                        // 버퍼 size 만큼 공간 확보한 다음 position을 바꿔줄라고 하는 과정같음
 
-                        count += data.length; //잘 되고있는지 확인하기 위한 count
+                        count += data.length; //잘 되고있는지 확인하기 위한 count 이것도 필요 없는 내용
 
                         os.write(data); //파일 아웃풋
 
@@ -181,7 +183,7 @@ public class AudioFromVideo {
                         Log.i("Output Index", "" + outputIndex);
                         Log.i("Presentation Time", "" + presentationTime);
 
-                        mMediaCodec.releaseOutputBuffer(outputIndex, false);
+                        mMediaCodec.releaseOutputBuffer(outputIndex, false); //버퍼를 코덱으로 반환
                     } else if (outputIndex == MediaCodec.INFO_OUTPUT_FORMAT_CHANGED) {
                         decoderOutputAudioFormat = audioDeCoder.getOutputFormat();
                     }
