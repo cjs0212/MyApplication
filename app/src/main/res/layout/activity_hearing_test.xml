@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HearingText.HearingTest">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="청력나이 테스트"></TextView>
+
+    <TextView
+        android:id="@+id/sub1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="1. 조용한 장소로 이동합니다."
+        android:textSize="25dp"
+        android:layout_below="@id/title">
+    </TextView>
+
+    <TextView
+        android:id="@+id/sub2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/sub1"
+        android:gravity="center"
+        android:text="2. 이어폰이나 헤드폰을 사용시 더 정확한 테스트가 가능합니다"
+        android:textSize="25dp"></TextView>
+    <TextView
+        android:id="@+id/sub3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="3. 볼륨은 50%로 설정합니다"
+        android:textSize="25dp"
+        android:layout_below="@id/sub2">
+    </TextView>
+    <LinearLayout
+        android:id="@+id/checkbox_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/sub3"
+        >
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/radiobutton_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="왼쪽 테스트"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="양쪽 테스트"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                ></RadioButton>
+            <RadioButton
+                android:id="@+id/radiobutton_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오른쪽 테스트"
+                ></RadioButton>
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/TestStart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/checkbox_layout"
+        android:gravity="center"
+        android:text="테스트 시작"
+        android:textSize="25dp"></Button>
+
+</RelativeLayout>

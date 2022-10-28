@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="잡음 제거 동영상 앱 "
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/cam"
+            android:background="@drawable/blue"
+            android:gravity="center"
+
+            android:text="동영상 불러오기"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:layout_marginRight="25dp"
+
+            tools:ignore="OnClick"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/play"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/darkblue"
+            android:gravity="center"
+
+            android:text="동영상"
+            android:textColor="#ffffff"
+            android:textSize="13dp"></Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/blue"
+            android:drawableLeft="@color/purple_500"
+            android:gravity="center"
+            android:onClick="bt3"
+            android:text="동영상 저장하기"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            tools:ignore="OnClick"></Button>
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puple"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="잡음 제거하기"
+            android:clickable="true"
+            android:id="@+id/btn4" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puple"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="음성 향상"
+            android:clickable="true"
+            android:id="@+id/btn44"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puple"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="원본 저장"
+            android:clickable="true"
+            android:id="@+id/btn55" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puple"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="음성 증폭"
+            android:clickable="true"
+            android:id="@+id/btn11"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/puple"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="결과 저장"
+            android:clickable="true"
+            android:id="@+id/btn22" />
+
+    </LinearLayout>
+
+</LinearLayout>
