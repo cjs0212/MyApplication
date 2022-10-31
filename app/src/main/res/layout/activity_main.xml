@@ -18,6 +18,7 @@
             android:id="@+id/bottomNavy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#ffffff"
             app:menu="@menu/menu"
             ></com.google.android.material.bottomnavigation.BottomNavigationView>
     </LinearLayout>

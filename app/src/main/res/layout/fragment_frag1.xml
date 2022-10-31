@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,177 +14,106 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:gravity="center"
         android:text="잡음 제거 동영상 앱 "
         android:textColor="@android:color/holo_blue_dark"
 
         android:textSize="30sp" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp">
 
 
-        <VideoView
-            android:id="@+id/videoView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintBottom_toTopOf="@+id/guideline"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="25dp">
-
-        <Button
-            android:id="@+id/btn1"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:layout_centerVertical="true"
-            android:drawableLeft="@drawable/cam"
-            android:background="@drawable/blue"
-            android:gravity="center"
-
-            android:text="동영상 불러오기"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            android:layout_marginRight="25dp"
-
-            tools:ignore="OnClick"></Button>
-
-        <Button
-            android:id="@+id/btn2"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:drawableLeft="@drawable/play"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/darkblue"
-            android:gravity="center"
-
-            android:text="동영상"
-            android:textColor="#ffffff"
-            android:textSize="13dp"></Button>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn3"
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="25dp"
-            android:background="@drawable/blue"
-            android:drawableLeft="@color/purple_500"
-            android:gravity="center"
-            android:onClick="bt3"
-            android:text="동영상 저장하기"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            tools:ignore="OnClick"></Button>
-
-        <Button
-            android:layout_width="180dp"
-            android:layout_height="50dp"
-            android:background="@drawable/puple"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            android:text="잡음 제거하기"
-            android:clickable="true"
-            android:id="@+id/btn4" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="100dp"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/VideoLoad_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        app:layout_constraintStart_toStartOf="@+id/videoView"
+        app:layout_constraintTop_toBottomOf="@id/videoView"
         android:gravity="center"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:background="@drawable/puple"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            android:text="음성 향상"
-            android:clickable="true"
-            android:id="@+id/btn44"
-            />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            />
+        android:textColor="#ffffff"
+        android:layout_marginRight="25dp"
+        tools:ignore="OnClick"></Button>
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:background="@drawable/puple"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            android:text="원본 저장"
-            android:clickable="true"
-            android:id="@+id/btn55" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:background="@drawable/puple"
-            android:textColor="#ffffff"
-            android:textSize="13dp"
-            android:text="음성 증폭"
-            android:clickable="true"
-            android:id="@+id/btn11"
-            />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            />
+            android:layout_marginTop="15dp"
+            android:id="@+id/Video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/videoView"
+            app:layout_constraintTop_toBottomOf="@id/videoView"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:textColor="#ffffff"></Button>
+
+
+
 
         <Button
-            android:layout_width="100dp"
+            android:id="@+id/VideoAmplification_btn"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
-            android:textColor="#ffffff"
+            android:text="voice amplification"
             android:textSize="13dp"
-            android:text="결과 저장"
-            android:clickable="true"
-            android:id="@+id/btn22" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/VideoEnhancement_btn"
+            app:layout_constraintTop_toBottomOf="@id/VideoLoad_btn"
+            tools:ignore="OnClick"></Button>
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/VideoEnhancement_btn"
+            android:layout_marginTop="15dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textSize="13dp"
+            android:text="잡음 제거"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/VideoAmplification_btn"
+            app:layout_constraintTop_toBottomOf="@id/Video_btn"
+             />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btn55"
+        android:layout_marginTop="15dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="원본 저장"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/VideoEnhancement_btn"
+        app:layout_constraintTop_toBottomOf="@id/VideoAmplification_btn"
+         />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textSize="13dp"
+        android:text="음성 증폭"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn55"
+        app:layout_constraintTop_toBottomOf="@id/VideoAmplification_btn"
+        android:id="@+id/btn11"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

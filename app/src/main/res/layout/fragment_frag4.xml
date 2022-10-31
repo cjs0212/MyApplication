@@ -52,8 +52,6 @@
             android:layout_width="180dp"
             android:layout_height="50dp"
             android:layout_centerVertical="true"
-            android:drawableLeft="@drawable/cam"
-            android:background="@drawable/blue"
             android:gravity="center"
 
             android:text="동영상 불러오기"
@@ -67,10 +65,8 @@
             android:id="@+id/btn2"
             android:layout_width="180dp"
             android:layout_height="50dp"
-            android:drawableLeft="@drawable/play"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/darkblue"
             android:gravity="center"
 
             android:text="동영상"
@@ -94,7 +90,6 @@
             android:layout_height="50dp"
             android:layout_centerVertical="true"
             android:layout_marginRight="25dp"
-            android:background="@drawable/blue"
             android:drawableLeft="@color/purple_500"
             android:gravity="center"
             android:onClick="bt3"
@@ -106,12 +101,11 @@
         <Button
             android:layout_width="180dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
             android:textColor="#ffffff"
             android:textSize="13dp"
             android:text="잡음 제거하기"
             android:clickable="true"
-            android:id="@+id/btn4" />
+            android:id="@+id/VideoEnhancement_btn" />
 
     </LinearLayout>
 
@@ -128,7 +122,6 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
             android:textColor="#ffffff"
             android:textSize="13dp"
             android:text="음성 향상"
@@ -144,7 +137,6 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
             android:textColor="#ffffff"
             android:textSize="13dp"
             android:text="원본 저장"
@@ -163,7 +155,6 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
             android:textColor="#ffffff"
             android:textSize="13dp"
             android:text="음성 증폭"
@@ -179,7 +170,6 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:background="@drawable/puple"
             android:textColor="#ffffff"
             android:textSize="13dp"
             android:text="결과 저장"

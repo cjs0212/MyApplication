@@ -1,4 +1,4 @@
-package com.example.myapplication.HearingText;
+package com.example.myapplication.HearingTest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -43,7 +43,9 @@ public class HearingTest2 extends AppCompatActivity {
 
         // id 매핑
         TextView  hztext= (TextView)findViewById(R.id.hztext);
-        Button Next_btn = (Button)findViewById(R.id.Next_btn);
+        Button next_btn = (Button)findViewById(R.id.Next_btn);
+        Button end_btn = (Button)findViewById(R.id.End_btn);
+        Button replay = (Button)findViewById(R.id.Replay);
 
         Bundle bundle = getIntent().getExtras();
         int sound_settings = bundle.getInt("setting");
@@ -70,7 +72,7 @@ public class HearingTest2 extends AppCompatActivity {
 
 
 
-        Next_btn.setOnClickListener(new View.OnClickListener() {
+        next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //오디오 재생중인 경우 토스트 출력
@@ -90,57 +92,31 @@ public class HearingTest2 extends AppCompatActivity {
                 }
 
                 m_soundpool_id = m_soundPool.load(HearingTest2.this,playlist.get(i),1);
-
-                //sound_settings을 이전 인텐트에서 받아와서 왼쪽, 오른쪽, 양쪽중에 구분 ,setOnLoadCompleteListener 로드하는동안 기다려줌
-                m_soundPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
+                soundplay(sound_settings);
+                //연타 방지를 위한 버튼 비활성화 2초지연
+                next_btn.setClickable(false);
+                //2초 지연후 버튼 활성화
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
                     @Override
-                    public void onLoadComplete(SoundPool soundPool, int sampleId, int status) {
-                        // soundId, leftVolumn, rightVolumn, priority, loop, rate
-                        if(sound_settings == 0)
-                            m_soundPool.play(m_soundpool_id,1,0,0,0,1);
-                        if(sound_settings == 1)
-                            m_soundPool.play(m_soundpool_id,0,1,0,0,1);
-                        if(sound_settings == 2)
-                            m_soundPool.play(m_soundpool_id,1,1,0,0,1);
-
-
-                        //연타 방지를 위한 버튼 비활성화 2초지연
-                        Next_btn.setClickable(false);
-
-
-                        //2초 지연후 버튼 활성화
-                        Handler handler = new Handler();
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                Next_btn.setClickable(true);
-                            }
-                        },2000);	//700밀리 초 동안 딜레이
-
-
+                    public void run() {
+                        next_btn.setClickable(true);
                     }
-                });
-
-
-
-
-                /*m_soundPool.play(m_soundpool_id1,1,1,0,0,1);*/
-                //mediaPlayer = MediaPlayer.create(HearingTest2.this,playlist.get(i++));
+                    },2000);	//700밀리 초 동안 딜레이
                 hztext.setText(Hz[i++]);
-                /*mediaPlayer.start();*/
+            }
+        });
 
-
-                /*timer = new Timer();*/
-                //if (playlist.size()>1) playNext();
-
-
+        replay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                m_soundpool_id = m_soundPool.load(HearingTest2.this,playlist.get(i-1),1);
+                soundplay(sound_settings);
             }
         });
 
 
-        Button End_btn = (Button)findViewById(R.id.End_btn);
-
-        End_btn.setOnClickListener(new View.OnClickListener() {
+        end_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 m_soundPool.release();
@@ -150,6 +126,7 @@ public class HearingTest2 extends AppCompatActivity {
 
             }
         });
+
     }
 
 
@@ -159,5 +136,21 @@ public class HearingTest2 extends AppCompatActivity {
             mediaPlayer.stop();
         timer.cancel();
         super.onDestroy();
+    }
+    public void soundplay(int sound_settings){
+        m_soundPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
+            @Override
+            public void onLoadComplete(SoundPool soundPool, int sampleId, int status) {
+                // soundId, leftVolumn, rightVolumn, priority, loop, rate
+                if(sound_settings == 0)
+                    m_soundPool.play(m_soundpool_id,1,0,0,0,1);
+                if(sound_settings == 1)
+                    m_soundPool.play(m_soundpool_id,0,1,0,0,1);
+                if(sound_settings == 2)
+                    m_soundPool.play(m_soundpool_id,1,1,0,0,1);
+
+            }
+        });
+
     }
 }
