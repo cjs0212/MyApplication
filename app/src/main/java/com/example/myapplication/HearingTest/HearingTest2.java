@@ -8,11 +8,10 @@ import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.myapplication.R;
 
@@ -25,6 +24,8 @@ public class HearingTest2 extends AppCompatActivity {
     int i=0;
     SoundPool m_soundPool;
     int m_soundpool_id;
+
+    ImageButton next_btn,end_btn,replay_btn;
 
     String[] Hz =new String[]{ "8000hz", "10000hz","12000hz","14080hz","14918hz","15805hz","16746hz","17742hz","18798hz","19916hz","21101hz","22357hz"};
 
@@ -43,16 +44,18 @@ public class HearingTest2 extends AppCompatActivity {
 
         // id 매핑
         TextView  hztext= (TextView)findViewById(R.id.hztext);
-        Button next_btn = (Button)findViewById(R.id.Next_btn);
-        Button end_btn = (Button)findViewById(R.id.End_btn);
-        Button replay = (Button)findViewById(R.id.Replay);
+        next_btn = (ImageButton)findViewById(R.id.Hear_btn);
+        end_btn = (ImageButton)findViewById(R.id.End_btn);
+        replay_btn = (ImageButton)findViewById(R.id.Replay);
 
         Bundle bundle = getIntent().getExtras();
         int sound_settings = bundle.getInt("setting");
 
         m_soundPool = new SoundPool(6, AudioManager.STREAM_MUSIC,0);
 
-
+        //첫 사운드 듣기전 종료버튼과 다시듣기 버튼 비활성화
+        replay_btn.setEnabled(false);
+        end_btn.setEnabled(false);
         //mediaPlayer = MediaPlayer.create(HearingTest2.this,R.raw.hz8000);
         //mediaPlayer.start();
         playlist = new ArrayList<>();
@@ -75,13 +78,9 @@ public class HearingTest2 extends AppCompatActivity {
         next_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //오디오 재생중인 경우 토스트 출력
-                if(mediaPlayer != null && mediaPlayer.isPlaying())
-                {
-                    Toast.makeText(getApplicationContext(),"기다렸다 눌러주세요", Toast.LENGTH_SHORT).show();
-                    Log.d("", "Toast ");
-                    return;
-                }
+
+                replay_btn.setEnabled(true);
+                end_btn.setEnabled(true);
                 //마지막 인덱스까지 간 경우 결과 화면으로
                 if(i == 12)
                 {
@@ -94,24 +93,20 @@ public class HearingTest2 extends AppCompatActivity {
                 m_soundpool_id = m_soundPool.load(HearingTest2.this,playlist.get(i),1);
                 soundplay(sound_settings);
                 //연타 방지를 위한 버튼 비활성화 2초지연
-                next_btn.setClickable(false);
-                //2초 지연후 버튼 활성화
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        next_btn.setClickable(true);
-                    }
-                    },2000);	//700밀리 초 동안 딜레이
+                btn_off();
+
                 hztext.setText(Hz[i++]);
             }
         });
 
-        replay.setOnClickListener(new View.OnClickListener() {
+        replay_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 m_soundpool_id = m_soundPool.load(HearingTest2.this,playlist.get(i-1),1);
                 soundplay(sound_settings);
+                //연타 방지를 위한 버튼 비활성화 2초지연
+                btn_off();
+
             }
         });
 
@@ -151,6 +146,23 @@ public class HearingTest2 extends AppCompatActivity {
 
             }
         });
+
+    }
+
+    public void btn_off(){
+
+        next_btn.setClickable(false);
+        replay_btn.setClickable(false);
+        //2초 지연후 버튼 활성화
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                replay_btn.setClickable(true);
+                next_btn.setClickable(true);
+            }
+        },2000);	//700밀리 초 동안 딜레이
+
 
     }
 }

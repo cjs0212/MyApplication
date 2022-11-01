@@ -1,11 +1,13 @@
 package com.example.myapplication.HearingTest;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.utils.widget.ImageFilterView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioGroup;
 
 import com.example.myapplication.R;
@@ -19,7 +21,7 @@ public class HearingTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hearing_test);
 
-        Button TestStart_btn = (Button)findViewById(R.id.TestStart_btn);
+        ImageFilterView TestStart_btn = (ImageFilterView)findViewById(R.id.TestStart_btn);
 
 
         RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radiogroup);

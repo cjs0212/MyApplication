@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
 
+import android.media.AudioFormat;
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
 import android.media.MediaExtractor;
@@ -9,6 +10,7 @@ import android.media.MediaFormat;
 import android.media.MediaMuxer;
 import android.util.Log;
 
+import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,7 +25,8 @@ public class AudioFromVideo {
     private String audio, videopath;
     private MediaCodec audioDeCoder;
     private MediaCodec audioEncoder;
-    private MediaExtractor audioExtractor, videoExtractor ;
+    private MediaCodec audioEncoder2;
+    private MediaExtractor audioExtractor,audioExtractor2, videoExtractor ;
     private MediaFormat audioformat;
     private MediaFormat videoformat;
     private String audiomime, videomime;
@@ -39,15 +42,17 @@ public class AudioFromVideo {
     boolean audioExtractorDone = false;
     boolean audioDecoderDone = false;
     boolean audioEncoderDone = false;
-
+    int sampleRate = 44100;
     //형식 변경에 대한 알림을 받으면 디코더에서 이를 가져옵니다.
     MediaFormat decoderOutputAudioFormat = null;
     MediaFormat encoderOutputAudioFormat = null;
+    MediaFormat outputFormat = null;
 
     public AudioFromVideo(String srcVideo, String destAudio, String destVideo) {
         this.audio = destAudio;
         this.videopath = srcVideo;
         audioExtractor = new MediaExtractor();
+        audioExtractor2 = new MediaExtractor();
         videoExtractor = new MediaExtractor();
         audioDeCoder = null;
         audioEncoder = null;
@@ -61,9 +66,11 @@ public class AudioFromVideo {
             //videopath를 통하여 추출
             audioExtractor.setDataSource(videopath);
             videoExtractor.setDataSource(videopath);
+            audioExtractor2.setDataSource(videopath);
 
             audioformat = audioExtractor.getTrackFormat(1);
             videoformat = videoExtractor.getTrackFormat(0);
+
 
             audioExtractor.selectTrack(1);
             videoExtractor.selectTrack(0);
@@ -78,9 +85,24 @@ public class AudioFromVideo {
             audioDeCoder.start();
 
             //인코더 초기화
+            outputFormat = MediaFormat.createAudioFormat(audiomime, 44100, 2);
+            outputFormat.setInteger(MediaFormat.KEY_AAC_PROFILE, MediaCodecInfo.CodecProfileLevel.AACObjectLC);
+            outputFormat.setInteger(MediaFormat.KEY_CHANNEL_MASK, AudioFormat.CHANNEL_IN_STEREO);
+            outputFormat.setInteger(MediaFormat.KEY_CHANNEL_COUNT, 2);
+            outputFormat.setInteger(MediaFormat.KEY_BIT_RATE, 128000);
+            //outputFormat.setInteger(MediaFormat.KEY_PCM_ENCODING, AudioFormat.CHANNEL_IN_STEREO);
+
+
+            audioEncoder2 = MediaCodec.createEncoderByType(audiomime);
+            audioEncoder2.configure(outputFormat, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
+            audioEncoder2.start();
+
+
+
             audioEncoder = MediaCodec.createEncoderByType(audiomime);
             audioEncoder.configure(audioformat, null, null, MediaCodec.CONFIGURE_FLAG_ENCODE);
             audioEncoder.start();
+
 
             muxer = new MediaMuxer(destVideo, MediaMuxer.OutputFormat.MUXER_OUTPUT_MPEG_4);
 
@@ -115,13 +137,13 @@ public class AudioFromVideo {
                 ByteBuffer videoInputBuffer = ByteBuffer.allocate(MAX_BUFFER_SIZE);
                 //음성과 영상 데이터 포맷(형식)을 muxer에 추가함
                 videoTrackIndex = muxer.addTrack(videoformat);
-                audioTrackIndex = muxer.addTrack(audioEncoder.getOutputFormat());
+                audioTrackIndex = muxer.addTrack(audioEncoder2.getOutputFormat());
                 Log.d("", "muxer: adding audio track." + audioTrackIndex);
                 muxer.start();
                 Log.d("", "muxer: starting");
 
 
-                // 1. 비디오 추출 및 muxer에 추가 (이부분은 비디오만이라 볼필요 없을거임
+                /** 1. 비디오 추출 및 muxer에 추가 (이부분은 비디오만이라 볼필요 없을거임 */
                 while (!videoExtractorDone) {
                     try {
                         videoBufferInfo.size = videoExtractor.readSampleData(videoInputBuffer, 0);
@@ -143,10 +165,9 @@ public class AudioFromVideo {
                         videoExtractedFrameCount++;
                     }
                 }
-                //비디오 추출 끝
+                /** 1. 비디오 추출 끝 */
 
-
-                //2. 오디오 추출 및 디코딩
+                /** 2. 오디오 추출 및 디코딩 */
                 while (true) {
                     int inputIndex = mMediaCodec.dequeueInputBuffer(0);
                     if (inputIndex == -1) {
@@ -169,14 +190,20 @@ public class AudioFromVideo {
                     //dequeueOutputBuffer는 아까 dequeueInputBuffer 함수에서 넣어둔 정보를 가져오는 역할
                     int outputIndex = mMediaCodec.dequeueOutputBuffer(info, 0);
                     if (outputIndex >= 0) { //outputIndex가 더 읽은게 없으면 -1을 리턴함
+
                         ByteBuffer bb = mMediaCodec.getOutputBuffer(outputIndex); //바이트버퍼 bb에 디코딩 데이터를 입력
                         byte[] data = new byte[info.size]; //버퍼 size 만큼 data 확보
                         bb.get(data); //데이터를 get 할 때 마다 position이 바뀐다.
                         // 버퍼 size 만큼 공간 확보한 다음 position을 바꿔줄라고 하는 과정같음
 
+                        short[] audioShort = byteArrayToShortArray(data);
+                        double[] audioDouble = short2double(audioShort);
+                        short[] sAudio = doubleArrayToShortArray(audioDouble);
+                        byte[] enhancedAudio = short2byte(sAudio);
+
                         count += data.length; //잘 되고있는지 확인하기 위한 count 이것도 필요 없는 내용
 
-                        os.write(data); //파일 아웃풋
+                        os.write(enhancedAudio); //파일 아웃풋
 
                         Log.i("Sample Size", "" + sampleSize);
                         Log.i("write", "" + count);
@@ -190,6 +217,10 @@ public class AudioFromVideo {
                 }
                 Log.i("write", "done");
                 //여기서 디코딩 + .pcm파일로 추출이 끝남
+                Log.d("", "--------------------------------------------------------------------");
+                Log.d("", "------------------------- 디코딩 종료 --------------------------------");
+                Log.d("", "--------------------------------------------------------------------");
+
 
 
 
@@ -205,9 +236,14 @@ public class AudioFromVideo {
                 try {
                     File inputFile = new File(destFile);    //디코딩된 파일을(.pcm) 읽어옴
                     FileInputStream fis = new FileInputStream(inputFile);
+                    DataInputStream dis = new DataInputStream(fis);
 
-                    ByteBuffer[] codecInputBuffers = audioEncoder.getInputBuffers();
-                    ByteBuffer[] codecOutputBuffers = audioEncoder.getOutputBuffers();
+
+
+
+
+                    ByteBuffer[] codecInputBuffers = audioEncoder2.getInputBuffers();
+                    ByteBuffer[] codecOutputBuffers = audioEncoder2.getOutputBuffers();
 
                     MediaCodec.BufferInfo outBuffInfo = new MediaCodec.BufferInfo();
 
@@ -222,21 +258,24 @@ public class AudioFromVideo {
 
                         int inputBufIndex = 0;
                         while (inputBufIndex != -1 && hasMoreData) {
-                            inputBufIndex = audioEncoder.dequeueInputBuffer(0); //인코더 인덱스 추출
+                            inputBufIndex = audioEncoder2.dequeueInputBuffer(0); //인코더 인덱스 추출
 
                             if (inputBufIndex >= 0) {
                                 ByteBuffer dstBuf = codecInputBuffers[inputBufIndex];
                                 dstBuf.clear();
 
-                                int bytesRead = fis.read(tempBuffer, 0, dstBuf.limit());
+                                int bytesRead = dis.read(tempBuffer, 0, dstBuf.limit());
                                 if (bytesRead == -1) { // -1 implies EOS
                                     hasMoreData = false;
-                                    audioEncoder.queueInputBuffer(inputBufIndex, 0, 0, (long) presentationTimeUs, MediaCodec.BUFFER_FLAG_END_OF_STREAM);
+                                    audioEncoder2.queueInputBuffer(inputBufIndex, 0, 0, (long) presentationTimeUs, MediaCodec.BUFFER_FLAG_END_OF_STREAM);
                                 } else {
                                     totalBytesRead += bytesRead;
                                     dstBuf.put(tempBuffer, 0, bytesRead);
-                                    audioEncoder.queueInputBuffer(inputBufIndex, 0, bytesRead, (long) presentationTimeUs, 0);
-                                    presentationTimeUs = 1000000l * (totalBytesRead / 2) / 44100;
+                                    audioEncoder2.queueInputBuffer(inputBufIndex, 0, bytesRead, (long) presentationTimeUs, 0);
+                                    //presentationTimeUs = 1000000l * (totalBytesRead/2) / sampleRate;
+                                    presentationTimeUs = 0;
+                                    /*presentationTimeUs = audioExtractor2.getSampleTime();
+                                    audioExtractor2.advance();*/
                                 }
                             }
                         }
@@ -245,21 +284,21 @@ public class AudioFromVideo {
                         int outputBufIndex = 0;
                         while (outputBufIndex != MediaCodec.INFO_TRY_AGAIN_LATER) {
                             //디코딩 때와 같이 input 데이터를 output시킴
-                            outputBufIndex = audioEncoder.dequeueOutputBuffer(outBuffInfo, 0);
+                            outputBufIndex = audioEncoder2.dequeueOutputBuffer(outBuffInfo, 0);
                             if (outputBufIndex >= 0) {
                                 ByteBuffer encodedData = codecOutputBuffers[outputBufIndex];
                                 encodedData.position(outBuffInfo.offset);
                                 encodedData.limit(outBuffInfo.offset + outBuffInfo.size);
 
                                 if ((outBuffInfo.flags & MediaCodec.BUFFER_FLAG_CODEC_CONFIG) != 0 && outBuffInfo.size != 0) {
-                                    audioEncoder.releaseOutputBuffer(outputBufIndex, false);
+                                    audioEncoder2.releaseOutputBuffer(outputBufIndex, false);
                                 } else {
 
                                     muxer.writeSampleData(audioTrackIndex, codecOutputBuffers[outputBufIndex], outBuffInfo);
-                                    audioEncoder.releaseOutputBuffer(outputBufIndex, false);
+                                    audioEncoder2.releaseOutputBuffer(outputBufIndex, false);
                                 }
                             } else if (outputBufIndex == MediaCodec.INFO_OUTPUT_FORMAT_CHANGED) {
-                                encoderOutputAudioFormat = audioEncoder.getOutputFormat();
+                                encoderOutputAudioFormat = audioEncoder2.getOutputFormat();
                                 Log.v("AUDIO", "Output format changed - " + encoderOutputAudioFormat);
                             } else if (outputBufIndex == MediaCodec.INFO_OUTPUT_BUFFERS_CHANGED) {
                                 Log.e("AUDIO", "Output buffers changed during encode!");
@@ -289,5 +328,46 @@ public class AudioFromVideo {
 
 
         }
+    }
+
+
+
+    public static short[] byteArrayToShortArray(byte[] byteArray) {
+        int nlengthInSamples = byteArray.length / 2;
+        short[] audioData = new short[nlengthInSamples];
+
+        for (int i = 0; i < nlengthInSamples; i++) {
+            short MSB = (short) byteArray[2 * i + 1];
+            short LSB = (short) byteArray[2 * i];
+            audioData[i] = (short) (MSB << 8 | (255 & LSB));
+        }
+
+        return audioData;
+    }
+
+    private double[] short2double(short[] shortData) {
+        int size = shortData.length;
+        double[] doubleData = new double[size];
+        for (int i = 0; i < size; i++) {
+            doubleData[i] = shortData[i] / 32768.0;
+        }
+        return doubleData;
+    }
+
+    private short[] doubleArrayToShortArray(double[] doubleArray) {
+        short[] shortArray = new short[doubleArray.length];
+        for (int i = 0; i < doubleArray.length; i++) {
+            shortArray[i] = (short) (doubleArray[i] * 32768.0);
+        }
+        return shortArray;
+    }
+
+    private byte[] short2byte(short[] sData) {
+        byte[] bytes = new byte[sData.length * 2];
+        for (int i = 0; i < sData.length; i++) {
+            bytes[i * 2] = (byte) (sData[i] & 0x00FF);
+            bytes[(i * 2) + 1] = (byte) (sData[i] >> 8);
+        }
+        return bytes;
     }
 }

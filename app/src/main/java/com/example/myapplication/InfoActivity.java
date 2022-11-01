@@ -17,7 +17,7 @@ public class InfoActivity extends  Dialog {
         setContentView(R.layout.activity_info);
 
         txt_contents = findViewById(R.id.txt_contents);
-        txt_contents.setText(contents);
+        //txt_contents.setText(contents);
         shutdownClick = findViewById(R.id.btn_shutdown);
         shutdownClick.setOnClickListener(new View.OnClickListener() {
 

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Info_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_help_24px"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.2"></Button>
+
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/bg_audio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/AudioRecord_btn" />
+
+    <ImageButton
+        android:id="@+id/VideoLoad_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_file_load"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/AudioAmplification_btn"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        tools:ignore="OnClick"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/AudioSaveAndShare_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_save_and_share"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/AudioEnhancement_btn"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        tools:ignore="OnClick"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/Audio_Start_btn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/btn_video_stop"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@id/AudioRecord_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/AudioRecord_btn"
+        app:layout_constraintTop_toTopOf="@id/AudioRecord_btn"
+        android:textColor="#ffffff"></ImageButton>
+
+
+    <ImageButton
+        android:id="@+id/AudioRecord_btn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/btn_audio_record"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/AudioEnhancement_btn"
+        android:textColor="#ffffff"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/Audio_Stop_btn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/btn_audio_stop"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/AudioRecord_btn"
+        app:layout_constraintBottom_toBottomOf="@id/AudioRecord_btn"
+        app:layout_constraintTop_toTopOf="@id/AudioRecord_btn"
+        android:textColor="#ffffff"></ImageButton>
+
+
+    <ImageButton
+        android:id="@+id/AudioAmplification_btn"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_videoamplification"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/AudioEnhancement_btn"
+        app:layout_constraintBottom_toTopOf="@id/AudioPlayResults_btn"
+        tools:ignore="OnClick"></ImageButton>
+    <ImageButton
+        android:id="@+id/AudioEnhancement_btn"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_videoenhancement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AudioAmplification_btn"
+        app:layout_constraintBottom_toTopOf="@id/AudioPlayResults_btn"
+        />
+
+    <ImageButton
+        android:id="@+id/AudioOriginalPlay_btn"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_original_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/AudioEnhancement_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/AudioPlayResults_btn"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_play_results"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AudioOriginalPlay_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

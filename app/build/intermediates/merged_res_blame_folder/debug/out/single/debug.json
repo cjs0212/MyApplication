@@ -1,0 +1,1310 @@
+[
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\img_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz17742.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz17742.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_question_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\question_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_btn_audio_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\btn_audio_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_frag4.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_frag4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz19916.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz19916.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ic_android_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ic_android_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-pngs-45:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_frag2.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_frag2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz14080.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz14080.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_question_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\question_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-50:/layout_fragment_video.xml.flat",
+        "source": "com.example.myapplication.app-main-52:/layout/fragment_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz8000.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz8000.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\img_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_test.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz15805.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz15805.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz21101.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz21101.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_frag1.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_frag1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_hearing_test.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_hearing_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_hearing_test_end.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_hearing_test_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_text_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\text_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz16746.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz16746.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_img_lecture.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\img_lecture.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_question_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\question_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz10000.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz10000.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_puple.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\puple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_btn_video_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\btn_video_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_blue.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_video.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_file_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_file_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz14918.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz14918.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ear_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ear_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_hearing_test2.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_hearing_test2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz18798.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz18798.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_cam.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\cam.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_bg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\bg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_darkblue.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\darkblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_start.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_start.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_videorecord.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_videorecord.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_smart_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\smart_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_text_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\text_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_bg_hearingtest.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\bg_hearingtest.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\img_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_audio_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\audio_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_ear_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\ear_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ear_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ear_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_cant_hear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_cant_hear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ear_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ear_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-v24_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-v24\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_video_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_video_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_original_play.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_original_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\img_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_videoenhancement.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_videoenhancement.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_img_hearing_age.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\img_hearing_age.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_video2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_video2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\img_video.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_activity_info.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\activity_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_ic_stop_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\ic_stop_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_stop.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_stop.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_video_load.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_video_load.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_bg_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\bg_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_ic_help_24px.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\ic_help_24px.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_shape_for_circle_button.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\shape_for_circle_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_replay.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_replay.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_img_circle.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\img_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ic_android_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_re_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_re_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_img_audio.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\img_audio.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_audio.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_audio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_text_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\text_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_video_btn.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\video_btn.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz22357.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz22357.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_audio2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_audio2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\raw_hz12000.mp3.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\raw\\hz12000.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_ear.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\ear.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_img_call_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\img_call_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-mdpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-mdpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_frg_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\frg_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_audio_record.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_audio_record.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_frg_video_off.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\frg_video_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_save_and_share.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\save_and_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_btn_play_results.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\btn_play_results.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxhdpi_audio_recording.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxhdpi\\audio_recording.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_question_icon.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\question_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_btn_videoamplification.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\btn_videoamplification.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\layout_fragment_frag3.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\layout\\fragment_frag3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_bg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\bg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_frg_test.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\frg_test.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_text_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\text_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xxxhdpi_btn_hearing_test_star.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xxxhdpi\\btn_hearing_test_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-xhdpi_ic_android_black_24dp.xml.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-xhdpi\\ic_android_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-hdpi_test_test2.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-hdpi\\test_test2.png"
+    },
+    {
+        "merged": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-merged_res-50:\\drawable-ldpi_img_video.png.flat",
+        "source": "C:\\Users\\Mycomhn220451\\.gradle\\daemon\\7.3.3\\com.example.myapplication.app-main-52:\\drawable-ldpi\\img_video.png"
+    }
+]
