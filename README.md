@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=speech_enhancement&fontSize=90" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=speech_enhancement&fontSize=80" />
 
 ## 팀 소개
 + 팀명 : Noise
